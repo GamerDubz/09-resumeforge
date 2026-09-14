@@ -481,10 +481,10 @@ function SettingsCard({
           </div>
         </div>
 
-        <div className="flex items-end justify-between gap-4">
+        <div className="space-y-4">
           <div>
             <p className="mb-2 font-mono text-[10px] uppercase tracking-[0.14em] text-ink-faint">Ink</p>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               {(Object.keys(ACCENT_COLORS) as AccentColor[]).map((c) => (
                 <button
                   key={c}
@@ -507,7 +507,7 @@ function SettingsCard({
 
           <div>
             <p className="mb-2 font-mono text-[10px] uppercase tracking-[0.14em] text-ink-faint">Typeface</p>
-            <div className="flex items-center gap-1 rounded-sm border border-rule p-1">
+            <div className="grid grid-cols-3 gap-1 rounded-sm border border-rule p-1">
               {FONT_FAMILIES.map((f) => (
                 <button
                   key={f.id}
