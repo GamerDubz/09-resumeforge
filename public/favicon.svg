@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="rfGrad" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="50%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#rfGrad)" />
+  <path d="M7 6C7 4.89543 7.89543 4 9 4H19L25 10V26C25 27.1046 24.1046 28 23 28H9C7.89543 28 7 27.1046 7 26V6Z" fill="#FFFFFF" />
+  <path d="M19 4V9C19 9.55228 19.4477 10 20 10H25L19 4Z" fill="#FDE68A" />
+  <rect x="10" y="8" width="6" height="2" rx="0.8" fill="#B45309" />
+  <rect x="10" y="13" width="12" height="1.5" rx="0.75" fill="#64748B" />
+  <rect x="10" y="16" width="9" height="1.5" rx="0.75" fill="#94A3B8" />
+  <rect x="10" y="19" width="11" height="1.5" rx="0.75" fill="#94A3B8" />
+  <path d="M22 17L26 21L21 26L17 22L22 17Z" fill="#F59E0B" stroke="#78350F" stroke-width="1" />
+  <path d="M17 22L15 27L20 25L17 22Z" fill="#D97706" />
+  <circle cx="21" cy="22" r="0.8" fill="#FFFFFF" />
+  <line x1="21" y1="22" x2="16" y2="27" stroke="#FFFFFF" stroke-width="0.75" />
+</svg>
