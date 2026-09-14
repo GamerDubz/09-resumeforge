@@ -5,20 +5,14 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ResumeForge — Local-First Executive Resume Builder',
-  description:
-    'Create, customize, and export professional resumes directly in your browser. Local-first, private, with instant one-page PDF export.',
-  icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
-  },
+  title: 'ResumeForge — Local-First Professional Resume Builder',
+  description: 'Create, customize, and export professional resumes directly in your browser. Local-first, privacy focused, with instant PDF export.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${inter.className} min-h-full bg-slate-100 text-slate-900 antialiased selection:bg-amber-500/20 selection:text-amber-900`}>
+    <html lang="en" className="dark">
+      <body className={`${inter.className} bg-neutral-950 text-neutral-100 min-h-screen antialiased`}>
         {children}
       </body>
     </html>

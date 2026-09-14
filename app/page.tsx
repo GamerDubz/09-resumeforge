@@ -274,28 +274,19 @@ export default function ResumeForgePage() {
   return (
     <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-100">
       {/* Top Header */}
-      <header className="border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-30 px-6 py-3 flex items-center justify-between no-print shadow-xs">
+      <header className="border-b border-neutral-800 bg-neutral-900/60 backdrop-blur sticky top-0 z-30 px-6 py-3 flex items-center justify-between no-print">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-slate-900 p-0.5 shadow-sm shadow-amber-500/20 flex items-center justify-center">
-            <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-              <svg className="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 19l7-7 3 3-7 7-3-3z" />
-                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
-                <path d="M2 2l7.586 7.586" />
-                <circle cx="11" cy="11" r="2" />
-              </svg>
-            </div>
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-amber-500 to-orange-600 flex items-center justify-center font-bold text-white shadow-lg shadow-amber-500/20">
+            RF
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <h1 className="text-base font-bold tracking-tight text-slate-900 leading-none">
-                Resume<span className="text-amber-600">Forge</span>
-              </h1>
-              <span className="text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 font-medium">
-                Editorial CV
+            <h1 className="text-base font-semibold leading-none flex items-center gap-2">
+              ResumeForge
+              <span className="text-xs px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 font-medium">
+                Local-First
               </span>
-            </div>
-            <p className="text-[11px] text-slate-500 mt-0.5">Professional one-page resume architect &amp; PDF exporter</p>
+            </h1>
+            <p className="text-xs text-neutral-400 mt-0.5">Professional Resume Builder &amp; PDF Export</p>
           </div>
         </div>
 
